@@ -1,0 +1,6 @@
+Klaus portrait — edited with the built-in Imagegen tool on November 2, 2026.
+Input: user-supplied Klaus.jpg. The original photograph was left unchanged.
+Website asset: klaus-gryffindor.png
+
+Prompt:
+Use case: identity-preserve. Edit the supplied photograph of Klaus for his first-birthday invitation's main portrait. Preserve the exact child's facial identity, age, face shape, skin tone, eyes, hair, joyful open-mouth smile, upward gaze and natural head angle. Change his clothing into a child-sized Gryffindor school uniform: white collared shirt, burgundy-and-gold striped tie, charcoal knit sweater, and an open black school robe with burgundy lining and a small Gryffindor lion crest on the chest. Make the outfit naturally fitted to this young child, with realistic fabric and consistent lighting. Photorealistic result, not a cartoon. Compose a flattering vertical 4:5 portrait framing his entire head and upper torso; keep his face clear of accessories. Soften the existing indoor background into warm golden bokeh and remove the distracting wrapped object at lower left and the cropped adult clothing at the right edge. Do not change his face, expression or apparent age. No glasses, no scar, no hat, no text, no watermark. The attached image is the edit target and identity reference.
