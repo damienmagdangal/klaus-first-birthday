@@ -7,10 +7,10 @@ window.INVITATION = {
   age: "ONE",
   date: "2026-12-05", // YYYY-MM-DD
   timeZone: "Asia/Manila", // Assumed for the day countdown; change if needed.
-  time: "[Celebration time]",
-  venue: "[Venue name]",
-  address: "[Full venue address]",
-  mapsUrl: "", // Paste your Google Maps share link here.
+  time: "4PM",
+  venue: "Jollibee Sheridan",
+  address: "7 Pioneer Corner Sheridan Street, Mandaluyong City, Metro Manila",
+  mapsUrl: "https://ul.waze.com/ul?venue_id=79364242.793314737.22579165&overview=yes&utm_campaign=live_map&utm_source=waze_website&utm_medium=lm_share_location", // Paste your Google Maps share link here.
   hosts: "Dana & Damien",
   dressCode: "Scarlet (Red), Beige, White, Emerald (Green)",
   rsvpDeadline: "November 28, 2026",
@@ -22,14 +22,14 @@ window.INVITATION = {
   program: [
     { icon: "stars", title: "Fun games", description: "Little adventures, big smiles." },
     { icon: "claw", title: "Claw machine", description: "A little luck. A lovely surprise." },
-    { icon: "wand", title: "Magician", description: "A spellbinding show for everyone." },
+    { icon: "wand", title: "Giveaways", description: "Treats for everyone." },
     { icon: "palette", title: "Face paint", description: "Become something magical." }
   ],
   giftMessage: "Your presence is our favorite present. If you would like to bring a little something, here are a few ideas for our growing wizard.",
   gifts: [
     { icon: "envelope", title: "Monetary gifts", description: "For little dreams and future adventures." },
     { icon: "book", title: "Educational toys", description: "For a curious mind and busy little hands." },
-    { icon: "shirt", title: "Clothes", description: "[Add preferred clothing size here]" }
+    { icon: "shirt", title: "Clothes", description: "For 1 - 2 years old" }
   ],
   rsvp: {
     formUrl: "https://forms.gle/Zznj42HYQdYT46hS8", // Published responder link: https://docs.google.com/forms/d/e/.../viewform (or forms.gle link)
