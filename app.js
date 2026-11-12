@@ -62,9 +62,35 @@
     svg.setAttribute('viewBox','0 0 44 44'); svg.setAttribute('class','line-icon'); svg.setAttribute('aria-hidden','true');
     const path = document.createElementNS(svg.namespaceURI,'path'); path.setAttribute('d', paths[name] || paths.stars); svg.append(path); return svg;
   }
+  // function list(items, container, className) {
+  //   items.forEach(item=>{const article=document.createElement('article'); article.className=className; const title=document.createElement('h3'); title.textContent=item.title;const p=document.createElement('p');p.textContent=item.description;article.append(icon(item.icon),title,p);container.append(article);});
+  // }
   function list(items, container, className) {
-    items.forEach(item=>{const article=document.createElement('article'); article.className=className; const title=document.createElement('h3'); title.textContent=item.title;const p=document.createElement('p');p.textContent=item.description;article.append(icon(item.icon),title,p);container.append(article);});
-  }
+  items.forEach(item => {
+    const article = document.createElement('article');
+    article.className = className;
+
+    const title = document.createElement('h3');
+    title.textContent = item.title;
+
+    const p = document.createElement('p');
+    p.textContent = item.description;
+
+    article.append(icon(item.icon), title, p);
+
+    if (item.url) {
+      const a = document.createElement('a');
+      a.href = item.url;
+      a.target = '_blank';
+      a.rel = 'noopener noreferrer';
+      a.className = 'article-link';
+      a.append(article);
+      container.append(a);
+    } else {
+      container.append(article);
+    }
+  });
+}
   list(c.program,$('program-list'),'program-item');list(c.gifts,$('gift-list'),'gift-item');
   function placeholder(container,label) {
     const wrap=document.createElement('div');wrap.className='placeholder';

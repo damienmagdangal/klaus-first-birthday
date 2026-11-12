@@ -7,12 +7,12 @@ window.INVITATION = {
   age: "ONE",
   date: "2026-12-05", // YYYY-MM-DD
   timeZone: "Asia/Manila", // Assumed for the day countdown; change if needed.
-  time: "4PM",
+  time: "3:30 PM",
   venue: "Jollibee Sheridan",
   address: "7 Pioneer Corner Sheridan Street, Mandaluyong City, Metro Manila",
   mapsUrl: "https://ul.waze.com/ul?venue_id=79364242.793314737.22579165&overview=yes&utm_campaign=live_map&utm_source=waze_website&utm_medium=lm_share_location", // Paste your Google Maps share link here.
   hosts: "Dana & Damien",
-  dressCode: "Scarlet (Red), Beige, White, Emerald (Green)",
+  dressCode: "Gryffindor Red, Hufflepuff Yellow, Ravenclaw Blue, Slytherin Green",
   rsvpDeadline: "November 28, 2026",
   welcome: "A little magic. A whole lot of love.",
   introduction: "Our little wizard is turning one! Join us for a spellbinding celebration of first giggles, tiny adventures, and a whole year of wonderful memories.",
@@ -27,8 +27,9 @@ window.INVITATION = {
   ],
   giftMessage: "Your presence is our favorite present. If you would like to bring a little something, here are a few ideas for our growing wizard.",
   gifts: [
+    { icon: "web", title: "Registry", description: "Tap here to go to MyRegistry", url: "https://www.myregistry.com/giftlist/klaus1stbirthday" },
     { icon: "envelope", title: "Monetary gifts", description: "For little dreams and future adventures." },
-    { icon: "book", title: "Educational toys", description: "For a curious mind and busy little hands." },
+    { icon: "book", title: "Books & educational toys", description: "For a curious mind and busy little hands." },
     { icon: "shirt", title: "Clothes", description: "For 1 - 2 years old" }
   ],
   rsvp: {
